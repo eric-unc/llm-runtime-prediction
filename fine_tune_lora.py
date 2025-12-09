@@ -25,7 +25,6 @@ def get_pair():
         expected = str(token_count(prompt, tokenizer))
         p = (training_prompt, expected)
         ret.append(p)
-    print("Len: ", len(ret))
     return ret
 
 #

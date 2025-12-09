@@ -12,8 +12,6 @@ len_queries = len(queries)
 
 models = ["llama3.2", "llama3.3"]
 runs = 10
-#models = ["gpt-oss"]
-#runs = 1
 
 for model in models:
 	# Make sure the model is pulled first...
@@ -25,8 +23,6 @@ for model in models:
 
 	for idx, query in enumerate(queries, start=1):
 		# Processing all of this would take a long time, so we're just gonna do the first 1000 for now
-		if idx < 1000:
-			continue
 		if idx > 1000 + 1:
 			break
 

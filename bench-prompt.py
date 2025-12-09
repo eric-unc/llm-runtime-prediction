@@ -16,7 +16,7 @@ def query_ollama(model: str, prompt: str) -> str:
         "options": {
             "seed": 1,
             "temperature": 0,
-            "num_predict": 10 # set just for predictions
+            #"num_predict": 10 # TODO: set just for predictions
         },
     }
     response = requests.post(url, json=payload)

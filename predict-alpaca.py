@@ -11,10 +11,10 @@ if not isinstance(queries, list):
 len_queries = len(queries)
 
 models = [
-	#"llama3.2:1b", # 1b
-	#"llama3.2", # 3b
-	#"qwen3:0.6b", # 0.6b
-	#"qwen3:1.7b", # 1.7b
+	"llama3.2:1b", # 1b
+	"llama3.2", # 3b
+	"qwen3:0.6b", # 0.6b
+	"qwen3:1.7b", # 1.7b
 	"qwen3:4b", # 4b
 	"gemma3:270m", # 270m
 	"gemma3:1b", # 1b
