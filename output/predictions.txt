@@ -1,0 +1,72 @@
+[llama3.2:1b] Percent correct: 0.0
+[llama3.2:1b] Percent correct (<= 5 tokens): 0.02902055622732769
+[llama3.2:1b] Percent correct (<= 10 tokens): 0.06529625151148731
+[llama3.2:1b] Percent correct (<= 15 tokens): 0.0761789600967352
+[llama3.2:1b] Percent correct (<= 20 tokens): 0.1003627569528416
+[llama3.2:1b] Percent correct (<= 25 tokens): 0.10640870616686819
+[llama3.2:1b] Median runtime: 0.1411420590011403
+[llama3.2:1b] Avg std: 3.0409356725146197
+[llama3.2] Percent correct: 0.007
+[llama3.2] Percent correct (<= 5 tokens): 0.0384
+[llama3.2] Percent correct (<= 10 tokens): 0.069
+[llama3.2] Percent correct (<= 15 tokens): 0.0962
+[llama3.2] Percent correct (<= 20 tokens): 0.118
+[llama3.2] Percent correct (<= 25 tokens): 0.1434
+[llama3.2] Median runtime: 0.1547900160003337
+[llama3.2] Avg std: 17.2684
+[qwen3:0.6b] Percent correct: 0.01170534813319879
+[qwen3:0.6b] Percent correct (<= 5 tokens): 0.10252270433905146
+[qwen3:0.6b] Percent correct (<= 10 tokens): 0.16589303733602423
+[qwen3:0.6b] Percent correct (<= 15 tokens): 0.19858728557013117
+[qwen3:0.6b] Percent correct (<= 20 tokens): 0.225832492431887
+[qwen3:0.6b] Percent correct (<= 25 tokens): 0.244803229061554
+[qwen3:0.6b] Median runtime: 1.1795064570032991
+[qwen3:0.6b] Avg std: 14.511548121665093
+[qwen3:1.7b] Percent correct: 0.0158953722334004
+[qwen3:1.7b] Percent correct (<= 5 tokens): 0.11126760563380282
+[qwen3:1.7b] Percent correct (<= 10 tokens): 0.1533199195171026
+[qwen3:1.7b] Percent correct (<= 15 tokens): 0.19456740442655934
+[qwen3:1.7b] Percent correct (<= 20 tokens): 0.22173038229376257
+[qwen3:1.7b] Percent correct (<= 25 tokens): 0.24205231388329979
+[qwen3:1.7b] Median runtime: 1.7112967900029616
+[qwen3:1.7b] Avg std: 2.76628587280973
+[qwen3:4b] Percent correct: 0.03984978093052368
+[qwen3:4b] Percent correct (<= 5 tokens): 0.13018986021281034
+[qwen3:4b] Percent correct (<= 10 tokens): 0.19111203838931776
+[qwen3:4b] Percent correct (<= 15 tokens): 0.224285416232005
+[qwen3:4b] Percent correct (<= 20 tokens): 0.2443146254955143
+[qwen3:4b] Percent correct (<= 25 tokens): 0.2649697475485082
+[qwen3:4b] Median runtime: 13.95399923849618
+[qwen3:4b] Avg std: 4.167723830294254
+[gemma3:270m] Percent correct: 0.007270461154964687
+[gemma3:270m] Percent correct (<= 5 tokens): 0.06231823847112588
+[gemma3:270m] Percent correct (<= 10 tokens): 0.13190693809721646
+[gemma3:270m] Percent correct (<= 15 tokens): 0.17968425425841297
+[gemma3:270m] Percent correct (<= 20 tokens): 0.2098047361861238
+[gemma3:270m] Percent correct (<= 25 tokens): 0.22642293311175737
+[gemma3:270m] Median runtime: 0.20114464800280984
+[gemma3:270m] Avg std: 0.021923474663909
+[gemma3:1b] Percent correct: 0.002613590671491757
+[gemma3:1b] Percent correct (<= 5 tokens): 0.03457981503819863
+[gemma3:1b] Percent correct (<= 10 tokens): 0.05689585846401287
+[gemma3:1b] Percent correct (<= 15 tokens): 0.08242862887012464
+[gemma3:1b] Percent correct (<= 20 tokens): 0.1158021712907117
+[gemma3:1b] Percent correct (<= 25 tokens): 0.14495375954965822
+[gemma3:1b] Median runtime: 0.22903452500031563
+[gemma3:1b] Avg std: 1.5706532663316586
+[gemma3:4b] Percent correct: 0.023223223223223222
+[gemma3:4b] Percent correct (<= 5 tokens): 0.14734734734734733
+[gemma3:4b] Percent correct (<= 10 tokens): 0.2072072072072072
+[gemma3:4b] Percent correct (<= 15 tokens): 0.22402402402402402
+[gemma3:4b] Percent correct (<= 20 tokens): 0.2510510510510511
+[gemma3:4b] Percent correct (<= 25 tokens): 0.2740740740740741
+[gemma3:4b] Median runtime: 0.23864321500150254
+[gemma3:4b] Avg std: 0.8708708708708709
+[deepseek-r1:1.5b] Percent correct: 0.004807692307692308
+[deepseek-r1:1.5b] Percent correct (<= 5 tokens): 0.07692307692307693
+[deepseek-r1:1.5b] Percent correct (<= 10 tokens): 0.17067307692307693
+[deepseek-r1:1.5b] Percent correct (<= 15 tokens): 0.21875
+[deepseek-r1:1.5b] Percent correct (<= 20 tokens): 0.29086538461538464
+[deepseek-r1:1.5b] Percent correct (<= 25 tokens): 0.32211538461538464
+[deepseek-r1:1.5b] Median runtime: 2.0114022604975617
+[deepseek-r1:1.5b] Avg std: 0.24675324675324675

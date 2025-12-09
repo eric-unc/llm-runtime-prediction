@@ -1,0 +1,1 @@
+curl -o alpaca_data_cleaned.json https://raw.githubusercontent.com/gururise/AlpacaDataCleaned/a7d629079a95c2e4b7ec7dfe55087fbd18d9eba8/alpaca_data_cleaned.json

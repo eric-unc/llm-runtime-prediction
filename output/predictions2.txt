@@ -1,0 +1,35 @@
+Training:
+[llama3.2] Percent correct: 0.007
+[llama3.2] Percent correct (<= 5 tokens): 0.0387
+[llama3.2] Percent correct (<= 10 tokens): 0.0695
+[llama3.2] Percent correct (<= 15 tokens): 0.0966
+[llama3.2] Percent correct (<= 20 tokens): 0.1185
+[llama3.2] Percent correct (<= 25 tokens): 0.1437
+[llama3.2] Median runtime: 0.15349564124335302
+[llama3.2] Avg std: 12.9513
+[llama32-ft] Percent correct: 0.0
+[llama32-ft] Percent correct (<= 5 tokens): 0.044794188861985475
+[llama32-ft] Percent correct (<= 10 tokens): 0.11440677966101695
+[llama32-ft] Percent correct (<= 15 tokens): 0.16646489104116222
+[llama32-ft] Percent correct (<= 20 tokens): 0.19188861985472155
+[llama32-ft] Percent correct (<= 25 tokens): 0.2245762711864407
+[llama32-ft] Median runtime: 0.13974782824516296
+[llama32-ft] Avg std: 0.32745098039215687
+
+Validation:
+[llama3.2] Percent correct: 0.0
+[llama3.2] Percent correct (<= 5 tokens): 0.051703406813627256
+[llama3.2] Percent correct (<= 10 tokens): 0.08897795591182364
+[llama3.2] Percent correct (<= 15 tokens): 0.11523046092184369
+[llama3.2] Percent correct (<= 20 tokens): 0.13967935871743486
+[llama3.2] Percent correct (<= 25 tokens): 0.1657314629258517
+[llama3.2] Median runtime: 0.15391726449888665
+[llama3.2] Avg std: 11.8563126252505
+[llama32-ft] Percent correct: 0.010111223458038422
+[llama32-ft] Percent correct (<= 5 tokens): 0.07785642062689585
+[llama32-ft] Percent correct (<= 10 tokens): 0.11830131445904954
+[llama32-ft] Percent correct (<= 15 tokens): 0.14964610717896865
+[llama32-ft] Percent correct (<= 20 tokens): 0.1698685540950455
+[llama32-ft] Percent correct (<= 25 tokens): 0.20020222446916078
+[llama32-ft] Median runtime: 0.16080666449852288
+[llama32-ft] Avg std: 0.12478632478632479

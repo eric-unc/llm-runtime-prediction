@@ -1,0 +1,4 @@
+FROM llama3.2:latest
+ADAPTER ft.gguf
+TEMPLATE "{{ .Prompt }}"
+
