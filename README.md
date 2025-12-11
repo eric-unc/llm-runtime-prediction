@@ -50,7 +50,7 @@ These are in order of how I would run them for reproducability.
 * `pearson-alpaca.py`: get the Pearson coefficient for that data, mentioned in the text.
 * `predict-alpaca.py`: use off-the-shelf models to predict output token lengths of various prompts. Results are saved to `output/alpaca-pred.db`.
 * `plot-alpaca-predictions.py`: plot those prediction accuracies; figure 4/5 in the paper, plus some extra plots.
-* `fine_tune_lora.py`: fine-tune LLama 3.2 using the data in `output/alpaca.db` to make it help predict those output token counts. The model is saved to a new `lora-out` directory.
+* `fine_tune_lora.py`: fine-tune LLama 3.2 using the data in `output/alpaca.db` to make it help predict those output token counts. The model is saved to a new `lora-out` directory. You will probably need to set the `HF_TOKEN` environmental variable to use Hugging Face stuff (like by running `export HF_TOKEN=...`).
 * `make_gguf.sh`: produces an `output/ft.gguf` from the `lora-out`.
 * `make_ollama.sh`: make that `ft.gguf` file available to ollama under the name `llama32-ft`. So, at this point you can simply do `ollama run llama32-ft` to access the fine-tuned model.
 * `bench-alpaca2.py`: bench Llama 3.3 on the next 500 elements, adding to `output.db`. Since we use this for validation, you should do this after running `fine_tune_lora.py` if you're trying to reproduce the project.
@@ -59,14 +59,8 @@ These are in order of how I would run them for reproducability.
 
 Finally, `bench-prompt.py` is a helper for the benchmarks.
 
-### Fine-tuning
-```sh
-source pred-Env/bin/activate
-export HF_TOKEN=... # fill in your Hugging Face token here
+### Just use it
+If you want to skip reproduction, then you can use `output/ft.gguf` that's included with the repo.
 
-python3 fine_tune_lora.py
-./make_gguf.sh
-./make_ollama.sh
-# Can test with llama32-ft then
-deactivate
-```
+## License
+MIT. The Alpaca dataset is under the [Apache 2.0 License](https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE) however.
