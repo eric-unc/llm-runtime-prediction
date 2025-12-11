@@ -64,3 +64,6 @@ If you want to skip reproduction, then you can use `output/ft.gguf` that's inclu
 
 ## License
 MIT. The Alpaca dataset is under the [Apache 2.0 License](https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE) however.
+
+## Disclaimer
+This is for a class project and is not a polished product.
