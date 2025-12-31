@@ -1,5 +1,8 @@
 # LLM runtime prediction
-This is my class project to predict the runtime/overall token output count of an LLM.
+This is my CS 5805 project to predict the runtime/overall token output count of an LLM. 
+
+## Disclaimer
+This is for a class project and is not a polished project. This was my first time fine tuning an LLM, and since it was just for a class project, I had limited time to do anything. Consider this just a "demo".
 
 ## Installation
 ### Ollama
@@ -64,6 +67,3 @@ If you want to skip reproduction, then you can use `output/ft.gguf` that's inclu
 
 ## License
 MIT. The Alpaca dataset is under the [Apache 2.0 License](https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE) however.
-
-## Disclaimer
-This is for a class project and is not a polished product.
